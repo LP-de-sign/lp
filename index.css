@@ -1,0 +1,188 @@
+.wrap {
+  overflow: hidden;
+  max-width: 599px;
+  width: 100%;
+  margin: 0 auto;
+}
+img{
+  width: 100%;
+}
+h2{
+  color: #FF0086;
+  margin-left: 20px;
+}
+p{
+  margin-left: 15px;
+  letter-spacing: 1.0px;
+  font-weight: bold;
+}
+body {
+  font-family: "Hiragino Sans", "Meiryo", sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 10px;
+  line-height: 1.5;
+}
+.promise-header{
+  max-width: 400px;
+  margin: auto;
+  background: #1a1a1a;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  padding-bottom: 30px;
+}
+.content{
+  padding: 14px;
+  font-size: 0.95em;
+  line-height: 2em;
+  text-align: center;
+  font-size: 25px;
+}
+.double {
+  font-size: 1.8em;
+  background: linear-gradient(to top, gold, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.0;
+}
+.refund{
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+  margin: 25px 0 15px;
+}
+.yellow{
+  color: #FFF800;
+}
+.red{
+  color: red;
+  font-weight: bold;
+}
+.plant-text, p{
+  font-size: 14px;
+}
+.three{
+  padding: 20px 0px 20px 0px;
+  font-size: 40px;
+}
+.pink{
+  color: #FF0086;
+}
+h1{
+  line-height: 1.9em;
+  margin: 10px;
+  letter-spacing: 2px;
+}
+del {
+  color: black;
+  text-decoration-color: red;
+}
+.summary-box {
+  background: #fff;
+  max-width: 480px;
+  margin: auto;
+  padding: 0;
+}
+/* タイトル */
+.title {
+  background: #000;
+  color: #fff;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+}
+/* 説明文 */
+.intro {
+  padding: 16px;
+  font-size: 1.05em;
+  line-height: 1.5em;
+  font-weight: bold;
+  word-break: keep-all;
+}
+/* 商品リスト */
+.item-list {
+  list-style: none;
+  padding: 0 16px;
+  margin: 0;
+}
+.item-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+  padding: 12px 0;
+  flex-wrap: wrap;
+}
+.desc {
+  flex: 1 1 65%;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+.price {
+  flex: 1 1 30%;
+  text-align: right;
+  white-space: nowrap;
+  font-size: 0.95em;
+}
+.price del {
+  color: #000;
+  font-weight: bold;
+}
+.discount {
+  color: red;
+  font-weight: bold;
+  font-size: 0.95em;
+}
+a{
+  display: flex;
+  padding: 30px 10px 30px 10px;
+}
+/* 合計 */
+.total {
+  border-top: 2px solid #555;
+  margin-top: 5px;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* --- レスポンシブ対応 --- */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  .intro {
+    font-size: 0.95em;
+    padding: 14px;
+  }
+  .desc {
+    font-size: 0.9em;
+  }
+  .price {
+    font-size: 0.9em;
+  }
+  .total {
+    font-size: 1.05em;
+  }
+  .purchase-btn {
+    font-size: 1em;
+    padding: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  p{
+    font-size: 30px; 
+    margin-left: 20px; 
+  }
+  .content{
+  font-size: 0.5em;
+  line-height: 2em;
+ 
+  font-size: 25px;
+  }
+    
+}
